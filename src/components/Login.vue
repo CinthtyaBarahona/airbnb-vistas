@@ -60,10 +60,6 @@ export default {
     width: 1250px;
     height: 70px;
     padding: 8px 8px 8px 8px;
-    background: #ffebd2;
-    border-color: #ffebd2;
-    border-width: 1px;
-    border-style: solid;
   }
   
   .img-fondo {
