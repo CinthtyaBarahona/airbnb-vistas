@@ -13,6 +13,9 @@
         <li class="nav-item">
           <router-link to="/registro" class="nav-link">Registrarse</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/lugar" class="nav-link">Registrar Lugar</router-link>
+        </li>
       </ul>
     </div>
   </div>
