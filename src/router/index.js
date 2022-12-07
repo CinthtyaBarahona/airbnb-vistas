@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import RegistroView from '../views/RegistroView.vue'
 import LugarView from '../views/LugarView.vue'
+import LugaresView from '../views/lugares/LugaresView.vue'
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: '/lugar',
     name: 'lugar',
     component: LugarView
+  },
+  {
+    path: '/lugares',
+    name: 'lugares',
+    component: LugaresView
   },
 ]
 

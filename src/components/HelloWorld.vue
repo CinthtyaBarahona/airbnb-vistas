@@ -1,7 +1,7 @@
 <template>
   <div class="busqueda">
         <div align="center">
-            <input type="search" placeholder="Buscar un lugar..." name="busquedaInicio">
+            <input type="search" placeholder="Buscar un lugar..." name="busquedaInicio" style="padding-left:15px;">
             <br>
             <label>¿Qué estás buscando?</label>
         </div>
@@ -37,24 +37,6 @@
         </div>
     </div>
 
-    <div class="card">
-        <div class="card-footer">
-            <p>
-              <router-link to="/about" class="info">Sobre Nosotros</router-link>
-      </p>
-      <p>
-        <router-link to="/about" class="info">Contactanos</router-link>
-      </p>
-      <p>
-        <router-link to="/about" class="info">Otra Opcion</router-link>
-      </p>
-
-      <pre>
-        <hr color="black" size="5" />
-    </pre>
-      <p class="texto-fin">© 2022 Todos los derechos reservados</p>
-    </div>
-        </div>
 </template>
 
 <script>
@@ -152,35 +134,4 @@ export default {
 .content-inicio .card .card-body{
     font-family: 'Comfortaa';
 }
-
-.card-footer {
-    width: auto;
-    height: auto;
-    padding: 8px 8px 8px 8px;
-    background: #f68930;
-    border-color: #f68930;
-    border-width: 1px;
-    border-style: solid;
-  }
-  
-  .info {
-    width: 200px;
-    height: 28px;
-    color: #000000;
-    font-family: "Helvetica";
-    font-weight: 500;
-    font-size: 20px;
-    text-align: left;
-  }
-  
-  .texto-fin {
-    width: 290px;
-    height: 24px;
-    color: #273248;
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: left;
-  }
 </style>
