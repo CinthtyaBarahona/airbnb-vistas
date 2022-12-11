@@ -1,4 +1,5 @@
 <template>
+    <!-- <div class="content-lugares" v-for="(lugares) in lugares" :key="lugares.id"></div> -->
     <div class="content-lugares">
         <div class="card d-flex flex-column justify-content-between ml-2">
             <img src="@/assets/lugar.jpg" class="card-img-top" alt="...">
@@ -15,9 +16,14 @@
 <script>
 export default {
     name: 'LugaresView',
-  props: {
-    msg: String
-  }
+    props: {
+        msg: String
+    },
+    data() {
+      return {
+        lugares: [],
+      }
+    },
 
 }
 </script>

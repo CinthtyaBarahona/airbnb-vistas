@@ -1,22 +1,24 @@
 <script setup>
+import { useRoute } from 'vue-router';
 import HeaderComponent from '../../components/Home/HeaderComponent.vue';
 import FooterComponent from '../../components/Home/FooterComponent.vue';
-import LugaresComponents from '../../components/lugares/LugaresComponents.vue';
+import LugareDetalleComponent from '../../components/lugares/LugareDetalleComponent.vue';
+
+const route = useRoute()
+//const { id } = route.params
+console.log(route.params)
 </script>
 
 <template>
 <div class="lugares">
     <HeaderComponent/>
-    <LugaresComponents/>
+    <LugareDetalleComponent/>
     <FooterComponent/>
 </div>
 </template>
 <script>
 
 export default {
-    name: 'LugaresView',
-    components: {
-      LugaresComponents
-    }
+    name: 'LugarDetalle',
   }
 </script>
