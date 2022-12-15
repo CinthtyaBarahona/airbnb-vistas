@@ -5,6 +5,7 @@ import RegistroView from '../views/Auth/RegistroView.vue'
 import LugarView from '../views/lugares/AgregarLugarView.vue'
 import LugaresView from '../views/lugares/LugaresView.vue'
 import LugarDetalleView from '../views/lugares/LugarDetalleView.vue'
+import AgregarReservaView from '@/views/reserva/AgregarReservaView.vue'
 
 const routes = [
   {
@@ -44,6 +45,11 @@ const routes = [
     path: '/lugares/:id',
     name: 'LugarDetalle',
     component: () => LugarDetalleView
+  },
+  {
+    path: '/reserva',
+    name: 'AgregarReserva',
+    component: () => AgregarReservaView
   },
 ]
 
